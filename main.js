@@ -1,18 +1,18 @@
    var bgImg = {
        1: {
-           imageUrl: "/img/hero-background-img-1.jpg"
+           imageUrl: "../img/hero-background-img-1.jpg"
        },
        2: {
-           imageUrl: "/img/hero-background-img-2.jpg"
+           imageUrl: "../img/hero-background-img-2.jpg"
        },
        3: {
-           imageUrl: "/img/hero-background-img-3.jpg"
+           imageUrl: "../img/hero-background-img-3.jpg"
        },
        4: {
-           imageUrl: "/img/hero-background-img-4.jpg"
+           imageUrl: "../img/hero-background-img-4.jpg"
        },
        5: {
-           imageUrl: "/img/hero-background-img-5.jpg"
+           imageUrl: "../img/hero-background-img-5.jpg"
        }
    };
 
