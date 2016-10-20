@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Movie Quote Machine</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A random movie quote generator. Project built for FreeCodeCamp Zipline.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./main.css" </head>
+
+    <body>
+        <div class="background-image" id="bg-img"></div>
+        <div class="quote-container">
+            <div class="quote-box">
+                <div class="show-quote">
+                    <i class="fa fa-quote-left fa-4x fa-pull-left" aria-hidden="true" style="color:#fff;"></i>
+                    <span class="sr-only">Quote starts</span>
+                    <h2 class="quote" id="quote">Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.</h2>
+                    <div class="quote-author">- <span id="author"> Sherlock Holmes</span></div>
+                </div>
+                <div class="bottom-bar">
+                    <button class="new-quote-btn tweet-quote" id="tweet-quote" onclick="tweetIt();return (false);">Tweet Quote</button>
+                    </a>
+                    <button class="new-quote-btn" id="new-quote">New Quote</button>
+                </div>
+                <div class="byline">Built by Emi Mnemonic 2016</div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./main.js"></script>
+    </body>
+
+</html>
