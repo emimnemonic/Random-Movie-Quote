@@ -37,7 +37,7 @@
  }
  
  .background-image {
-     background-image: url('../img/hero-background-img-1.jpg');
+     background-image: url('img/hero-background-img-1.jpg');
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
